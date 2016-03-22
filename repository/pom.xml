@@ -161,6 +161,7 @@
 										<Bundle-SymbolicName>org.python.jython</Bundle-SymbolicName>
 										<Bundle-Version>2.7.0.release</Bundle-Version>
 										<Export-Package>org.python.*,</Export-Package>
+										<Eclipse-BundleShape>dir</Eclipse-BundleShape>
 										<Eclipse-BuddyPolicy>registered</Eclipse-BuddyPolicy>
 									</instructions>	
 								</artifact>
