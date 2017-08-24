@@ -66,7 +66,7 @@
       <plugin>
         <groupId>org.reficio</groupId>
         <artifactId>p2-maven-plugin</artifactId>
-        <version>1.1.1</version>
+        <version>1.2.0</version>
         <executions>
           <execution>
             <id>default-cli</id>
@@ -166,6 +166,12 @@
                   <id>org.hibernate:hibernate-validator:4.3.0.Final</id>
                 </artifact>
                 <artifact>
+                  <id>org.influxdb:influxdb-java:2.6</id>
+		  <instructions>
+		    <Require-Bundle>com.squareup.retrofit2.converter-moshi,com.squareup.okhttp3.logging-interceptor</Require-Bundle>
+                  </instructions>
+                </artifact>
+                <artifact>
                   <id>org.glassfish:javax.json:1.0.4</id>
                 </artifact>
                 <artifact>
@@ -247,7 +253,9 @@
                 <artifact>
                   <id>org.controlsfx:controlsfx:8.40.12</id>
                 </artifact>
-
+                <artifact>
+                  <id>de.codecentric.centerdevice:javafxsvg:1.2.1</id>
+                </artifact>
 
                 <!-- pvmanager-plugins from reactor -->
                 <artifact>
