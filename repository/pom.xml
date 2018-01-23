@@ -265,6 +265,9 @@
                   <id>de.codecentric.centerdevice:javafxsvg:1.2.1</id>
                 </artifact>
                 <artifact>
+                  <id>se.europeanspallationsource:javafx.control.controlled-knobs:1.0.4</id>
+                </artifact>
+                <artifact>
                   <id>se.europeanspallationsource:javafx.control.knobs:1.0.11</id>
                 </artifact>
                 <artifact>
