@@ -11,7 +11,7 @@
     <profile>
       <id>uploadRepo</id>
       <properties>
-        <!-- Properties relative to the distant host where to upload the 
+        <!-- Properties relative to the distant host where to upload the
           repo -->
         <ftp.url>${upload.root}/maven-osgi-bundles/${cs-studio.version}/</ftp.url>
       </properties>
@@ -257,7 +257,7 @@
                   </instructions>
                 </artifact>
 
-
+                <!-- JavaFX libraries -->
                 <artifact>
                   <id>org.controlsfx:controlsfx:8.40.14</id>
                 </artifact>
@@ -265,16 +265,16 @@
                   <id>org.reactfx:reactfx:2.0-M5</id>
                 </artifact>
                 <artifact>
-                  <id>org.fxmisc.flowless:flowless:0.6</id>
+                  <id>org.fxmisc.flowless:flowless:0.6.1</id>
                 </artifact>
                 <artifact>
-                  <id>org.fxmisc.richtext:richtextfx:0.8.2</id>
+                  <id>org.fxmisc.richtext:richtextfx:0.9.0</id>
                 </artifact>
                 <artifact>
                   <id>org.fxmisc.undo:undofx:2.0.0</id>
                 </artifact>
                 <artifact>
-                  <id>org.fxmisc.wellbehaved:wellbehavedfx:0.3.1</id>
+                  <id>org.fxmisc.wellbehaved:wellbehavedfx:0.3.3</id>
                 </artifact>
                 <artifact>
                   <id>se.europeanspallationsource:javafx.control.controlled-knobs:1.0.5</id>
@@ -374,7 +374,7 @@
     </plugins>
     <pluginManagement>
       <plugins>
-        <!--This plugin's configuration is used to store Eclipse m2e settings 
+        <!--This plugin's configuration is used to store Eclipse m2e settings
           only. It has no influence on the Maven build itself. -->
         <plugin>
           <groupId>org.eclipse.m2e</groupId>
