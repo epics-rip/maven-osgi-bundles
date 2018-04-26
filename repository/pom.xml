@@ -289,7 +289,7 @@
                   <id>se.europeanspallationsource:javafx.control.thumbwheel:1.0.3</id>
                 </artifact>
                 <artifact>
-                  <id>se.europeanspallationsource:xaos:0.2.3</id>
+                  <id>se.europeanspallationsource:xaos:0.2.6</id>
                 </artifact>
 
                 <!-- pvmanager-plugins from reactor -->
