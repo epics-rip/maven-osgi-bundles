@@ -374,6 +374,34 @@
                 <artifact>
                   <id>org.fxmisc.wellbehaved:wellbehavedfx:0.3.3</id>
                 </artifact>
+
+                <!-- Java 11 and JFX 11 upgrade dependencies -->
+                <artifact>
+                  <id>javax.xml.bind:jaxb-api:2.4.0-b180830.0359</id>
+                </artifact>
+                <!-- This should work for a JAXB implementation -->
+                <artifact>
+                  <id>org.glassfish.jaxb:jaxb-runtime:2.4.0-b180830.0438</id>
+                </artifact>
+                <!-- I have managed to make this work for JAXB -->
+                <artifact>
+                  <id>org.eclipse.persistence:org.eclipse.persistence.moxy:2.7.3</id>
+                </artifact>
+                <artifact>
+                  <id>org.eclipse.persistence:org.eclipse.persistence.asm:2.7.3</id>
+                </artifact>
+                <artifact>
+                  <id>javax.annotation:javax.annotation-api:1.3</id>
+                </artifact>
+                <artifact>
+                  <id>javax.activation:javax.activation-api:1.2.0</id>
+                </artifact>
+                <artifact>
+                  <id>org.jacorb:jacorb-omgapi:3.8</id>
+                </artifact>
+                <artifact>
+                  <id>org.openjfx:javafx-controls:11</id>
+                </artifact>
                 <artifact>
                   <id>se.europeanspallationsource:javafx.control.controlled-knobs:1.0.5</id>
                 </artifact>
