@@ -341,7 +341,7 @@
 
 				<!-- JavaFX libraries -->
                 <artifact>
-                  <id>org.controlsfx:controlsfx:8.40.14</id>
+                  <id>org.controlsfx:controlsfx:8.40.15</id>
                   <override>true</override>
                   <instructions>
                     <Import-Package>!com.sun.*,!javafx.*,*</Import-Package>
@@ -384,7 +384,7 @@
                   <id>se.europeanspallationsource:javafx.control.medusa:8.3.0</id>
                 </artifact>
                 <artifact>
-                  <id>se.europeanspallationsource:javafx.control.thumbwheel:1.0.4</id>
+                  <id>se.europeanspallationsource:javafx.control.thumbwheel:1.0.5</id>
                 </artifact>
                 <artifact>
                   <id>se.europeanspallationsource:xaos:0.2.7</id>
